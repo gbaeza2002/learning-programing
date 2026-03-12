@@ -5,4 +5,20 @@ export class TasksService {
     getTasks() {
         return ['Task 1', 'Task 2', 'Task 3'];
     }
+
+    createTask() {
+        return 'Task created';
+    }
+
+    editTask() {
+        return 'Task edited';
+    }
+
+    editTasks() {
+        return 'Tasks edited';
+    }
+
+    deleteTask() {
+        return 'Task deleted';
+    }
 }
